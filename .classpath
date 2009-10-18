@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="tools/|contrib/" kind="src" path="jta26"/>
+	<classpathentry kind="src" path="jta26/contrib"/>
+	<classpathentry kind="src" path="jta26/tools"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/cosmos/workspace/jdom.jar"/>
+	<classpathentry kind="lib" path="/home/cosmos/Programmi/jboss-5.0.1.GA/common/lib/servlet-api.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
