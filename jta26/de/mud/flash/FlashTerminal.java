@@ -180,10 +180,10 @@ public class FlashTerminal implements VDUDisplay, Runnable {
     if (terminalReady && writer != null) {
       try {
         // remove children from terminal
-        terminal.removeChildren();
+        terminal.removeChildren(terminal.getName());
         if (simpleMode) {
           Element result = redrawSimpleTerminal(terminal);
-          if (result.hasChildren()) {
+          if (result.getChildren().size() == 0) {
             xmlOutputter.output(result, writer);
           }
         } else {

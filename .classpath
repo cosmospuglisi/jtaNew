@@ -4,7 +4,7 @@
 	<classpathentry kind="src" path="jta26/contrib"/>
 	<classpathentry kind="src" path="jta26/tools"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="/home/cosmos/workspace/jdom.jar"/>
-	<classpathentry kind="lib" path="/home/cosmos/Programmi/jboss-5.0.1.GA/common/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/cpuglisi/Documenti/Progetti/jtaNew/jta26/lib/jdom.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/cpuglisi/Documenti/Progetti/jtaNew/jta26/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
